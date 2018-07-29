@@ -1,4 +1,4 @@
-#use_frameworks!
+use_frameworks!
 
 target 'VidaliciousFakebookSwift_Example' do
   pod 'VidaliciousFakebookSwift', :path => '../'
