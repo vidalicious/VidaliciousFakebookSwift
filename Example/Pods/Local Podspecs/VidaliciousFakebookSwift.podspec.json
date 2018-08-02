@@ -18,5 +18,58 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "VidaliciousFakebookSwift/Classes/**/*"
+  "source_files": "VidaliciousFakebookSwift/Classes/**/*",
+  "dependencies": {
+    "IGListKit": [
+
+    ],
+    "RealmSwift": [
+
+    ],
+    "Moya": [
+
+    ],
+    "SwiftyJSON": [
+
+    ],
+    "AsyncDisplayKit": [
+
+    ],
+    "DZNEmptyDataSet": [
+
+    ],
+    "ChameleonFramework/Swift": [
+
+    ],
+    "Hero": [
+
+    ],
+    "DeviceKit": [
+
+    ],
+    "Charts": [
+
+    ],
+    "MGSwipeTableCell": [
+
+    ],
+    "RandomKit": [
+
+    ],
+    "RxSwift": [
+
+    ],
+    "GDPerformanceView-Swift": [
+
+    ],
+    "Alamofire": [
+
+    ],
+    "SwiftyStoreKit": [
+
+    ],
+    "FSCalendar": [
+
+    ]
+  }
 }

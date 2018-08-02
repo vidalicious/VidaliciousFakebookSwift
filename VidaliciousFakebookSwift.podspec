@@ -38,5 +38,22 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'IGListKit'
+  s.dependency 'RealmSwift'
+  s.dependency 'Moya'
+  s.dependency 'SwiftyJSON'
+  s.dependency 'AsyncDisplayKit'
+  s.dependency 'DZNEmptyDataSet'
+  s.dependency 'ChameleonFramework/Swift'
+  s.dependency 'Hero'
+  s.dependency 'DeviceKit'
+  s.dependency 'Charts'
+  s.dependency 'MGSwipeTableCell'
+  s.dependency 'RandomKit'
+  s.dependency 'RxSwift'
+  s.dependency 'GDPerformanceView-Swift'
+  s.dependency 'Alamofire'
+  s.dependency 'SwiftyStoreKit'
+  s.dependency 'FSCalendar' 
+
 end
