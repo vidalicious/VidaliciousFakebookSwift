@@ -1,9 +1,29 @@
 PODS:
+  - Alamofire (4.7.3)
+  - Charts (3.1.1):
+    - Charts/Core (= 3.1.1)
+  - Charts/Core (3.1.1)
+  - DeviceKit (1.7.0)
+  - DZNEmptyDataSet (1.8.1)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
+  - FSCalendar (2.7.9)
+  - GDPerformanceView-Swift (1.3.2)
+  - Hero (1.3.0)
+  - IGListKit (3.4.0):
+    - IGListKit/Default (= 3.4.0)
+  - IGListKit/Default (3.4.0):
+    - IGListKit/Diffing
+  - IGListKit/Diffing (3.4.0)
+  - MGSwipeTableCell (1.6.7)
+  - Moya (11.0.2):
+    - Moya/Core (= 11.0.2)
+  - Moya/Core (11.0.2):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
   - Nimble (7.0.3)
   - Nimble-Snapshots (6.3.0):
     - Nimble-Snapshots/Core (= 6.3.0)
@@ -11,7 +31,30 @@ PODS:
     - FBSnapshotTestCase (~> 2.0)
     - Nimble (~> 7.0)
   - Quick (1.2.0)
-  - VidaliciousFakebookSwift (0.1.0)
+  - Realm (3.7.5):
+    - Realm/Headers (= 3.7.5)
+  - Realm/Headers (3.7.5)
+  - RealmSwift (3.7.5):
+    - Realm (= 3.7.5)
+  - Result (3.2.4)
+  - RxSwift (4.2.0)
+  - SwiftyJSON (4.1.0)
+  - SwiftyStoreKit (0.13.3)
+  - VidaliciousFakebookSwift (0.1.0):
+    - Alamofire
+    - Charts
+    - DeviceKit
+    - DZNEmptyDataSet
+    - FSCalendar
+    - GDPerformanceView-Swift
+    - Hero
+    - IGListKit
+    - MGSwipeTableCell
+    - Moya
+    - RealmSwift
+    - RxSwift
+    - SwiftyJSON
+    - SwiftyStoreKit
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.4)
@@ -21,23 +64,55 @@ DEPENDENCIES:
   - VidaliciousFakebookSwift (from `../`)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Charts
+    - DeviceKit
+    - DZNEmptyDataSet
     - FBSnapshotTestCase
+    - FSCalendar
+    - GDPerformanceView-Swift
+    - Hero
+    - IGListKit
+    - MGSwipeTableCell
+    - Moya
     - Nimble
     - Nimble-Snapshots
     - Quick
+    - Realm
+    - RealmSwift
+    - Result
+    - RxSwift
+    - SwiftyJSON
+    - SwiftyStoreKit
 
 EXTERNAL SOURCES:
   VidaliciousFakebookSwift:
     :path: "../"
 
 SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  Charts: 90a4d61da0f6e06684c591e3bcab11940fe61736
+  DeviceKit: 6a5bdeb103c03757bb94aef1ccb01e08bc8ef4ee
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  FSCalendar: a04b09f16f811bc92e82f3cf852a15225233b9d5
+  GDPerformanceView-Swift: a74cd679587b199e4526492b6e68ce61593c6123
+  Hero: 3eecd3fd62dd2425cbc7e35505c557b86d5a379e
+  IGListKit: 7a5d788e9fb746bcd402baa8e8b24bc3bd2a5a07
+  MGSwipeTableCell: fb20e983988bde2b8d0df29c2d9e1d8ffd10b74a
+  Moya: a725035953bc1c0eb1be505ab903984501d82440
   Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
   Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
-  VidaliciousFakebookSwift: 055915fcc666d15930d51907e488d55118190013
+  Realm: c286caf4dbf346ce24aad49ca76c7ce622d4a082
+  RealmSwift: 2a9281e37d6de55f66f76254d49d28aeb1b729e4
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  RxSwift: 99e10317ddfcc7fbe01356aafd118fde4a0be104
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+  SwiftyStoreKit: 9ebd15971e28aa2989825fe8bc092eb5f75dd0b2
+  VidaliciousFakebookSwift: b414624f23dcedacae950831f22794d734d1d605
 
 PODFILE CHECKSUM: cc845e9e43c78d6abc87357b9aab7631d3a18302
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.3
