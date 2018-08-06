@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		5A8747195E0CD90412793B1E /* Pods_VidaliciousFakebookSwift_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B93A19614F7794AB3B2EA29 /* Pods_VidaliciousFakebookSwift_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		BC3F437A2118385F0089C062 /* DemoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3F43792118385F0089C062 /* DemoTableViewController.swift */; };
+		BC3F437C21183E090089C062 /* ArmoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3F437B21183E090089C062 /* ArmoryTableViewController.swift */; };
 		FB282778CE766785E66D29E6 /* Pods_VidaliciousFakebookSwift_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C74BBB81F116F03DAAC3F9C /* Pods_VidaliciousFakebookSwift_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +35,6 @@
 		607FACD01AFB9204008FA782 /* VidaliciousFakebookSwift_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VidaliciousFakebookSwift_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -44,6 +44,8 @@
 		6117D1497C939CBF3AA3360D /* VidaliciousFakebookSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = VidaliciousFakebookSwift.podspec; path = ../VidaliciousFakebookSwift.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7F01FB4B4E46756D26501D36 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8C74BBB81F116F03DAAC3F9C /* Pods_VidaliciousFakebookSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VidaliciousFakebookSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3F43792118385F0089C062 /* DemoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableViewController.swift; sourceTree = "<group>"; };
+		BC3F437B21183E090089C062 /* ArmoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmoryTableViewController.swift; sourceTree = "<group>"; };
 		CD617FCFDE0480C15383AF7F /* Pods-VidaliciousFakebookSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VidaliciousFakebookSwift_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VidaliciousFakebookSwift_Example/Pods-VidaliciousFakebookSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EAF1694A0884FF68ABC69861 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EE3BAF31B0708459946B2015 /* Pods-VidaliciousFakebookSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VidaliciousFakebookSwift_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VidaliciousFakebookSwift_Tests/Pods-VidaliciousFakebookSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -94,7 +96,8 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				BC3F43792118385F0089C062 /* DemoTableViewController.swift */,
+				BC3F437B21183E090089C062 /* ArmoryTableViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -379,7 +382,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				BC3F437C21183E090089C062 /* ArmoryTableViewController.swift in Sources */,
+				BC3F437A2118385F0089C062 /* DemoTableViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
