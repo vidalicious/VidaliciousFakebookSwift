@@ -1,6 +1,0 @@
-framework module VidaliciousFakebookSwift {
-  umbrella header "VidaliciousFakebookSwift-umbrella.h"
-
-  export *
-  module * { export * }
-}

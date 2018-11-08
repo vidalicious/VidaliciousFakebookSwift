@@ -1,0 +1,20 @@
+PODS:
+  - EasyPeasy (1.7.0)
+  - FoldingCell (4.0.2)
+
+DEPENDENCIES:
+  - EasyPeasy
+  - FoldingCell
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - EasyPeasy
+    - FoldingCell
+
+SPEC CHECKSUMS:
+  EasyPeasy: 2f2785ed78c6f9e9045221f2ff317730e7321bff
+  FoldingCell: 352f0211a53f957b885a1b37d5ffa875da90bca5
+
+PODFILE CHECKSUM: 5242d080572f5cb463af53df0ed48a45a7506c2a
+
+COCOAPODS: 1.5.3
