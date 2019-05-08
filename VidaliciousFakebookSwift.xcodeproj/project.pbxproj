@@ -12,6 +12,7 @@
 		BC53BCBE2193E78C0039DDB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC53BCBC2193E78C0039DDB0 /* Main.storyboard */; };
 		BC53BCC02193E78E0039DDB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC53BCBF2193E78E0039DDB0 /* Assets.xcassets */; };
 		BC53BCC32193E78E0039DDB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC53BCC12193E78E0039DDB0 /* LaunchScreen.storyboard */; };
+		BCD6264D219928DD00AD2315 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD6264C219928DD00AD2315 /* TestViewController.swift */; };
 		F930666089CCA0A419EBFD74 /* Pods_VidaliciousFakebookSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C183942FBC678C4F88121C0B /* Pods_VidaliciousFakebookSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		BC53BCBF2193E78E0039DDB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC53BCC22193E78E0039DDB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC53BCC42193E78E0039DDB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCD6264C219928DD00AD2315 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		C183942FBC678C4F88121C0B /* Pods_VidaliciousFakebookSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VidaliciousFakebookSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -72,6 +74,7 @@
 			children = (
 				BC53BCB82193E78C0039DDB0 /* AppDelegate.swift */,
 				BC53BCBA2193E78C0039DDB0 /* ViewController.swift */,
+				BCD6264C219928DD00AD2315 /* TestViewController.swift */,
 				BC53BCBC2193E78C0039DDB0 /* Main.storyboard */,
 				BC53BCBF2193E78E0039DDB0 /* Assets.xcassets */,
 				BC53BCC12193E78E0039DDB0 /* LaunchScreen.storyboard */,
@@ -181,18 +184,22 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-VidaliciousFakebookSwift/Pods-VidaliciousFakebookSwift-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-VidaliciousFakebookSwift/Pods-VidaliciousFakebookSwift-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/EasyPeasy/EasyPeasy.framework",
 				"${BUILT_PRODUCTS_DIR}/FoldingCell/FoldingCell.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EasyPeasy.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FoldingCell.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VidaliciousFakebookSwift/Pods-VidaliciousFakebookSwift-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VidaliciousFakebookSwift/Pods-VidaliciousFakebookSwift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -203,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC53BCBB2193E78C0039DDB0 /* ViewController.swift in Sources */,
+				BCD6264D219928DD00AD2315 /* TestViewController.swift in Sources */,
 				BC53BCB92193E78C0039DDB0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,7 +7,8 @@ target 'VidaliciousFakebookSwift' do
 
   # Pods for VidaliciousFakebookSwift
   pod 'EasyPeasy'
-  pod 'FoldingCell'	
+  pod 'FoldingCell'
+  pod 'ReactiveSwift'
 end
 
 swift_40 = ['EasyPeasy']

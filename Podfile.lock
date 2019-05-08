@@ -1,20 +1,28 @@
 PODS:
   - EasyPeasy (1.7.0)
   - FoldingCell (4.0.2)
+  - ReactiveSwift (4.0.0):
+    - Result (~> 4.0)
+  - Result (4.1.0)
 
 DEPENDENCIES:
   - EasyPeasy
   - FoldingCell
+  - ReactiveSwift
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - EasyPeasy
     - FoldingCell
+    - ReactiveSwift
+    - Result
 
 SPEC CHECKSUMS:
   EasyPeasy: 2f2785ed78c6f9e9045221f2ff317730e7321bff
   FoldingCell: 352f0211a53f957b885a1b37d5ffa875da90bca5
+  ReactiveSwift: a2bb9ace428a109e9c0209615645d9d286c8c433
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
 
-PODFILE CHECKSUM: 5242d080572f5cb463af53df0ed48a45a7506c2a
+PODFILE CHECKSUM: aa16bcf55013f0edd1d11641879fea14640d75f0
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.0.beta.2
