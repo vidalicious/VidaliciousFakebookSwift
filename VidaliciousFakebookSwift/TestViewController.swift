@@ -28,7 +28,7 @@ class TestViewController: UIViewController {
     */
 
     override func viewDidAppear(_ animated: Bool) {
-        <#code#>
+        
     }
     
 }

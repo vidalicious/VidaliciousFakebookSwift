@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC18A783229E39B30020AA30 /* FakebookExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC18A782229E39B30020AA30 /* FakebookExtended.swift */; };
+		BC18A787229E5FA30020AA30 /* BundleExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC18A786229E5FA30020AA30 /* BundleExtended.swift */; };
 		BC53BCB92193E78C0039DDB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC53BCB82193E78C0039DDB0 /* AppDelegate.swift */; };
 		BC53BCBB2193E78C0039DDB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC53BCBA2193E78C0039DDB0 /* ViewController.swift */; };
 		BC53BCBE2193E78C0039DDB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC53BCBC2193E78C0039DDB0 /* Main.storyboard */; };
@@ -19,6 +21,8 @@
 /* Begin PBXFileReference section */
 		0A637D5F6EB0555ECB9660E2 /* Pods-VidaliciousFakebookSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VidaliciousFakebookSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VidaliciousFakebookSwift/Pods-VidaliciousFakebookSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		638B2C3C2F48F1E3E9446A55 /* Pods-VidaliciousFakebookSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VidaliciousFakebookSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-VidaliciousFakebookSwift/Pods-VidaliciousFakebookSwift.release.xcconfig"; sourceTree = "<group>"; };
+		BC18A782229E39B30020AA30 /* FakebookExtended.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakebookExtended.swift; sourceTree = "<group>"; };
+		BC18A786229E5FA30020AA30 /* BundleExtended.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtended.swift; sourceTree = "<group>"; };
 		BC53BCB52193E78C0039DDB0 /* VidaliciousFakebookSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VidaliciousFakebookSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC53BCB82193E78C0039DDB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC53BCBA2193E78C0039DDB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +55,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		BC18A77F229E39570020AA30 /* how to extended basic class */ = {
+			isa = PBXGroup;
+			children = (
+				BC18A782229E39B30020AA30 /* FakebookExtended.swift */,
+				BC18A786229E5FA30020AA30 /* BundleExtended.swift */,
+			);
+			path = "how to extended basic class";
+			sourceTree = "<group>";
+		};
 		BC53BCAC2193E78C0039DDB0 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +85,7 @@
 		BC53BCB72193E78C0039DDB0 /* VidaliciousFakebookSwift */ = {
 			isa = PBXGroup;
 			children = (
+				BC18A77F229E39570020AA30 /* how to extended basic class */,
 				BC53BCB82193E78C0039DDB0 /* AppDelegate.swift */,
 				BC53BCBA2193E78C0039DDB0 /* ViewController.swift */,
 				BCD6264C219928DD00AD2315 /* TestViewController.swift */,
@@ -209,6 +223,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC18A783229E39B30020AA30 /* FakebookExtended.swift in Sources */,
+				BC18A787229E5FA30020AA30 /* BundleExtended.swift in Sources */,
 				BC53BCBB2193E78C0039DDB0 /* ViewController.swift in Sources */,
 				BCD6264D219928DD00AD2315 /* TestViewController.swift in Sources */,
 				BC53BCB92193E78C0039DDB0 /* AppDelegate.swift in Sources */,
@@ -366,7 +382,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = vidalicious.VidaliciousFakebookSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -384,7 +400,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = vidalicious.VidaliciousFakebookSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
